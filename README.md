@@ -5,6 +5,7 @@
 ## Features
 
 - Typescript installed and configured
+- Tailwind CSS utils framework
 - Styled Components via Emotion
 
 ## Getting Started

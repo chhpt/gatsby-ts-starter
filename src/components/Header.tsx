@@ -7,9 +7,10 @@ interface Props {
 }
 
 const StyledHeader = styled.header`
-  background: #3279C7;
-  margin-bottom: 1.45rem;
+  background: #3279c7;
+  margin-bottom: 1.5rem;
 `
+
 const Content = styled.div`
   margin: 0 auto;
   max-width: 960;
