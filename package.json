@@ -1,0 +1,57 @@
+{
+  "name": "gatsby-ts-starter",
+  "private": true,
+  "description": "A Gatsby Typescript starter template",
+  "version": "1.0.0",
+  "author": "cwuyiqing@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby clean && gatsby develop -p 8008",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chhpt/gatsby-ts-starter"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "gatsby": "^3.11.0",
+    "gatsby-alias-imports": "^1.0.6",
+    "gatsby-plugin-image": "^1.11.0",
+    "gatsby-plugin-react-helmet": "^4.11.0",
+    "gatsby-plugin-sharp": "^3.11.0",
+    "gatsby-plugin-typescript": "^3.11.0",
+    "gatsby-source-filesystem": "^3.11.0",
+    "gatsby-transformer-sharp": "^3.11.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.12",
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-helmet": "^6.1.2",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "autoprefixer": "^10.3.1",
+    "eslint": "^7.32.0",
+    "eslint-config-alloy": "^4.2.0",
+    "eslint-plugin-react": "^7.24.0",
+    "gatsby-plugin-postcss": "^4.11.0",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7",
+    "typescript": "^4.3.5"
+  },
+  "keywords": [
+    "gatsby",
+    "typescript"
+  ],
+  "bugs": {
+    "url": "https://github.com/chhpt/gatsby-ts-starter/issues"
+  }
+}
