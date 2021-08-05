@@ -762,9 +762,9 @@
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-react-display-name@^7.14.5":
-  version "7.15.0"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-display-name/-/plugin-transform-react-display-name-7.15.0.tgz#e8653782ea23613e3f401027de68500024b6f9fa"
-  integrity sha512-6Qxy8EYcb6ZqpfdOHkEk4TzJC/YNxzMiZITQOS6WoIrdyZUU3lbUga+vUkQXUMaLeh5ofsEUYv98a++mq2A3dQ==
+  version "7.15.1"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-display-name/-/plugin-transform-react-display-name-7.15.1.tgz#6aaac6099f1fcf6589d35ae6be1b6e10c8c602b9"
+  integrity sha512-yQZ/i/pUCJAHI/LbtZr413S3VT26qNrEm0M5RRxQJA947/YNYwbZbBaXGDrq6CG5QsZycI1VIP6d7pQaBfP+8Q==
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
@@ -1007,9 +1007,9 @@
     regenerator-runtime "^0.13.4"
 
 "@babel/standalone@^7.14.7":
-  version "7.15.0"
-  resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.15.0.tgz#451fb7f9ea799962c219cd90b6e6c11f08b777e8"
-  integrity sha512-x9LLp3oQPkNv57NyAVHIASLhGoNfHC6e7STARZhn48kCRw7ttmfgLm2tZzMMSpRlVs5OfvzHvG7tz5aXDE6FpA==
+  version "7.15.1"
+  resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.15.1.tgz#9b5e0852fa37c9e1408163b9be6e3ec1feb872a2"
+  integrity sha512-OJvIUtmXWEnTFvm+/TSMFkJK9vmbOF1wNmu/vbU18/Hlj9E6JdrkWxTkwbrsM1UjLtyb4w+pwZ/A1C4XZXorXg==
 
 "@babel/template@^7.10.4", "@babel/template@^7.14.0", "@babel/template@^7.14.5":
   version "7.14.5"
@@ -1260,7 +1260,16 @@
     "@graphql-tools/utils" "^7.7.0"
     tslib "~2.2.0"
 
-"@graphql-tools/merge@6.2.17", "@graphql-tools/merge@^6.2.12":
+"@graphql-tools/merge@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/merge/-/merge-7.0.0.tgz#af3380f5dc4536870397a3bac5afd0cd53e11add"
+  integrity sha512-u7TTwKQ7cybAkn6snYPRg3um/C2u690wlD8TgHITAmGQDAExN/yipSSBgu4rXWopsPLsY0G30mJ8tOWToZVE1w==
+  dependencies:
+    "@graphql-tools/schema" "^8.0.3"
+    "@graphql-tools/utils" "8.0.2"
+    tslib "~2.3.0"
+
+"@graphql-tools/merge@^6.2.12":
   version "6.2.17"
   resolved "https://registry.yarnpkg.com/@graphql-tools/merge/-/merge-6.2.17.tgz#4dedf87d8435a5e1091d7cc8d4f371ed1e029f1f"
   integrity sha512-G5YrOew39fZf16VIrc49q3c8dBqQDD0ax5LYPiNja00xsXDi0T9zsEWVt06ApjtSdSF6HDddlu5S12QjeN8Tow==
@@ -1278,12 +1287,12 @@
     tslib "~2.2.0"
     value-or-promise "1.0.6"
 
-"@graphql-tools/schema@^8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/schema/-/schema-8.0.2.tgz#1d21851ed1ddd9cf8974aa24b7cb6b6af99f6232"
-  integrity sha512-LRO9R4Yi7uBVthdxoBgBTZxRCainfKeTlaBUy8MD/W+u8uUKUmdknrnqeWD4tvNwQjDFcEssm1cKwhvge7OqMA==
+"@graphql-tools/schema@^8.0.2", "@graphql-tools/schema@^8.0.3":
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/schema/-/schema-8.0.3.tgz#504a6b279be52a278b9c8af90b710c9dcc9ff732"
+  integrity sha512-ufJH7r/RcetVPd3kKCZ16/JTRkOX8aB1yGbYnUjqWEIdYEZc3Fpg7AVlcliu2JlvwR+WSNlgWn2QK76QCsFFdA==
   dependencies:
-    "@graphql-tools/merge" "6.2.17"
+    "@graphql-tools/merge" "7.0.0"
     "@graphql-tools/utils" "8.0.2"
     tslib "~2.3.0"
     value-or-promise "1.0.10"
@@ -3317,9 +3326,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001243, caniuse-lite@^1.0.30001248:
-  version "1.0.30001248"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001248.tgz#26ab45e340f155ea5da2920dadb76a533cb8ebce"
-  integrity sha512-NwlQbJkxUFJ8nMErnGtT0QTM2TJ33xgz4KXJSMIrjXIbDVdaYueGyjOrLKRtJC+rTiWfi6j5cnZN1NBiSBJGNw==
+  version "1.0.30001249"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001249.tgz#90a330057f8ff75bfe97a94d047d5e14fabb2ee8"
+  integrity sha512-vcX4U8lwVXPdqzPWi6cAJ3FnQaqXbBqy/GZseKNQzRj37J7qZdGcBtxq/QLFNLLlfsoXLUdHw8Iwenri86Tagw==
 
 caw@^2.0.0, caw@^2.0.1:
   version "2.0.1"
